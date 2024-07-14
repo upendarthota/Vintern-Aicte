@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* #cart-icon{
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.open{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 500px;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: yellow;
+    box-shadow: -2px 0 4px hsl(0 4% 15%/10%);
+}
+.close{
+    
+} */
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100px;
+    height: auto;
+}
+h2{
+    text-align: center;
+}
+.ccart {
+    background-color: aqua;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid #cccccc;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+    
+}
+
+#ccart-items li {
+    /* margin-bottom: 10px;
+    margin-left: 60px;
+    margin-top: 30px; */
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    margin: 20px 40px;
+    font-size:200%;
+   
+}
+
+button {
+    background-color: #a30505;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+
+ .tot{
+    color: violet;
+    font-weight: bold;
+    font-size:300%;
+}
